@@ -1,0 +1,10 @@
+num = int(input('please enter your number : '))
+average = 0
+sum = 0
+count = 0
+while num != -1:
+    sum = sum + num
+    count = count+1
+    num = int(input('please enter your number : '))
+average = float(sum // count)
+print('average = ', average)
